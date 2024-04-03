@@ -1,12 +1,12 @@
 package response_utils
 
 import (
-	"ai_girlfriend_server/pkg/pagination"
 	"context"
 	"encoding/json"
 	"fmt"
 	"github.com/gin-gonic/gin"
 	"github.com/go-sql-driver/mysql"
+	"github.com/oubeishi/pkg/pagination"
 	"net/http"
 )
 

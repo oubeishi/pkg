@@ -1,10 +1,10 @@
 package request_utils
 
 import (
-	"ai_girlfriend_server/pkg/response_utils"
 	"encoding/json"
 	"fmt"
 	"github.com/gin-gonic/gin"
+	"github.com/oubeishi/pkg/response_utils"
 	"io"
 	"reflect"
 	"strconv"
